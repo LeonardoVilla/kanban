@@ -1,0 +1,114 @@
+*{
+    padding: 0px; margin: 0px;
+}
+
+body{
+    background: rgba(192, 162, 162, 0.1);
+    font-family: sans-serif;
+}
+/* Formulários */
+form{
+    width: 400px;
+    padding: 20px;
+    margin: auto;
+    border-style: solid;
+    border-radius: 5px;
+    background: white;
+}
+
+input, label, select{
+    width: 95%;
+    margin: 5px auto;
+    height: 45px;
+    border-radius: 5px;
+    font-size: 18px;
+    padding-left: 5px;
+}
+
+button{
+    width: 50%;
+    height: 50px;
+    border-radius: 10px;
+    margin-left: 25%;
+}
+/* Fim de formulários */
+
+/* Nav Bar */
+nav{
+    height: 70px;
+    background: dimgray;
+    display: flex;
+    align-items: center;     
+}
+
+ul{
+    display: flex;   
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+}
+
+/* kanban */
+div{
+    border-radius: 10px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.kanban{
+    width: 80%;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    
+}
+
+.afazer{
+    width: 30%;
+    background: rgb(245, 245, 120);
+    flex-wrap: wrap;
+    padding-bottom: 10px;
+}
+
+.fazendo{
+    width: 30%;
+    background: rgb(163, 187, 235);
+    flex-wrap: wrap;
+    padding-bottom: 10px;
+}
+
+.pronto{
+    width: 30%;
+    background: rgb(144, 203, 127);
+    flex-wrap: wrap;
+    padding-bottom: 10px;
+}
+
+h4{
+    margin-top: 15px;
+}
+
+/* Tarefa */
+section{
+    padding: 5px;
+    border:1px;
+    border-style: solid;
+    border-radius: 10px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin-bottom: 5px;
+    background: whitesmoke;
+}
+p{
+    width: 90%;
+}
